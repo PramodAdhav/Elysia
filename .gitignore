@@ -1,0 +1,29 @@
+# Ignore Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Node.js dependencies
+node_modules/
+package-lock.json
+
+# Ignore environment variables & secrets
+.env
+
+# Ignore logs & cache
+*.log
+logs/
+cache/
+*.sqlite3
+*.db
+
+# Ignore build files
+/dist
+/build
+/static
+
+# Ignore VSCode & system files
+.vscode/
+.DS_Store
+Thumbs.db

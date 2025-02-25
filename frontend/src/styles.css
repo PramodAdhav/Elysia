@@ -1,0 +1,56 @@
+/* Main Title Centered */
+.main-title {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+/* Center the feed container */
+.feed-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Rectangle box for each post */
+.post-card {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: left;
+}
+
+/* Centered Header Inside Each Box */
+.post-title {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Username styling */
+.post-header {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+/* Content styling */
+.post-content {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Timestamp styling */
+.post-footer {
+    font-size: 0.9em;
+    color: gray;
+    text-align: right;
+}
